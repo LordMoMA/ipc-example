@@ -1,7 +1,12 @@
 
 ## [IPC Explained: When Your Processes Need to Talk or Yell at Each Other](https://medium.com/@lordmoma/ipc-explained-when-your-processes-need-to-talk-or-yell-at-each-other-9ca29a515e99)
 
+### How to run this project
+
 ```bash
+
+cargo build
+
 # To run the shared memory parent process
 cargo run --bin shared_memory_parent
 
