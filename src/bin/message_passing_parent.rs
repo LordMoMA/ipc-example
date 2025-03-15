@@ -11,7 +11,7 @@ fn main() {
     let listener = UnixListener::bind(socket_path).expect("Failed to bind to socket");
 
     // Start child process
-    let child = Command::new("./target/debug/message-passing-child")
+    let child = Command::new("./target/debug/message_passing_child") 
         .spawn()
         .expect("Failed to start child process");
 

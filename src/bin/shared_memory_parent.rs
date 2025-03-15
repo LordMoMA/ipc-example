@@ -10,7 +10,7 @@ fn main() {
     let counter = SharedCounter::create("my_counter");
 
     // Start child process
-    let child = Command::new("./target/debug/shared-memory-child")
+    let child = Command::new("./target/debug/shared_memory_child")
         .spawn()
         .expect("Failed to start child process");
 
