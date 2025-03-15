@@ -1,0 +1,1 @@
+/Users/davidlee/projects/ipc-example/target/debug/shared_memory_parent: /Users/davidlee/projects/ipc-example/src/bin/shared_memory_parent.rs /Users/davidlee/projects/ipc-example/src/lib.rs /Users/davidlee/projects/ipc-example/src/message_passing.rs /Users/davidlee/projects/ipc-example/src/shared_memory.rs

@@ -1,0 +1,28 @@
+[package]
+name = "ipc-example"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+shared_memory = "0.12.4"
+crossbeam = "0.8.2"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+nix = "0.26.2"
+
+[[bin]]
+name = "shared_memory_parent"
+path = "src/bin/shared_memory_parent.rs"
+
+[[bin]]
+name = "shared_memory_child"
+path = "src/bin/shared_memory_child.rs"
+
+[[bin]]
+name = "message_passing_parent"
+path = "src/bin/message_passing_parent.rs"
+
+[[bin]]
+name = "message_passing_child"
+path = "src/bin/message_passing_child.rs"
+
