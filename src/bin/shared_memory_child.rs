@@ -6,6 +6,7 @@ fn main() {
     println!("Starting shared memory child process");
 
     // Open existing shared memory
+    // The child process accesses the same shared memory segment by looking up "my_counter".
     let counter = SharedCounter::open("my_counter");
 
     // Child process increments counter
